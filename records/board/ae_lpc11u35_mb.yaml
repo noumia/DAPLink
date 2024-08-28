@@ -1,0 +1,8 @@
+common:
+    macros:
+        - IO_CONFIG_OVERRIDE
+    includes:
+        - source/board/override_ae_lpc11u35_mb
+    sources:
+        board:
+            - source/board/ae_lpc11u35_mb.c
