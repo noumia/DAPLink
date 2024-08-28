@@ -146,6 +146,7 @@ projects:
         - *module_hic_lpc11u35_bulk
         - records/family/all_family.yaml
         - records/board/ae_lpc11u35_mb.yaml
+        - records/tools/gcc_arm_lto.yaml
 
     lpc4322_bl:
         - *module_bl

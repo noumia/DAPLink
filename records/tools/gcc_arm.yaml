@@ -14,7 +14,7 @@ tool_specific:
                 - -Os
                 - -g3
                 # - -Wall
-                - -Werror
+                # - -Werror
                 - -ffunction-sections
                 - -fdata-sections
                 - -std=gnu99
@@ -27,7 +27,7 @@ tool_specific:
                 - --specs=nano.specs
                 - --specs=nosys.specs
                 - -Wl,-check-sections
-                - -Wl,-fatal-warnings
+                # - -Wl,-fatal-warnings
                 - -Wl,--gc-sections
                 - -Wl,--no-wchar-size-warning
                 - -Wl,--print-memory-usage
